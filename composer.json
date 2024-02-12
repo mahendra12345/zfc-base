@@ -1,0 +1,40 @@
+{
+    "name": "zf-commons/zfc-base",
+    "description": "A set of genetic (abstract) classes which are commonly used across multiple modules.",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/ZF-Commons/ZfcBase",
+    "authors": [
+        {
+            "name": "Evan Coury",
+            "email": "me@evancoury.com",
+            "homepage": "http://blog.evan.pro/"
+        },
+        {
+            "name": "Kyle Spraggs",
+            "email": "theman@spiffyjr.me",
+            "homepage": "http://www.spiffyjr.me/"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "laminas/laminas-db": "~2.1",
+        "laminas/laminas-eventmanager": "^3.4",
+        "laminas/laminas-loader": "~2.1",
+        "laminas/laminas-modulemanager": "^2.15",
+        "laminas/laminas-mvc": "~2.1",
+        "laminas/laminas-servicemanager": "^3.21.0",
+        "laminas/laminas-stdlib": "~2.1",
+        "laminas/laminas-dependency-plugin": "^2.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZfcBase": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
