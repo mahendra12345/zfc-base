@@ -20,13 +20,13 @@
     ],
     "require": {
         "php": ">=8.2",
-        "laminas/laminas-db": "~2.1",
+        "laminas/laminas-db": "^2.5",
         "laminas/laminas-eventmanager": "^3.4",
         "laminas/laminas-loader": "~2.1",
         "laminas/laminas-modulemanager": "^2.15",
-        "laminas/laminas-mvc": "~2.1",
+        "laminas/laminas-mvc": "^3.7",
         "laminas/laminas-servicemanager": "^3.21.0",
-        "laminas/laminas-stdlib": "~2.1",
+        "laminas/laminas-stdlib": "^3.10.1",
         "laminas/laminas-dependency-plugin": "^2.1"
     },
     "autoload": {
