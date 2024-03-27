@@ -36,5 +36,10 @@
         "classmap": [
             "./Module.php"
         ]
+    },
+    "config": {
+        "allow-plugins": {
+            "laminas/laminas-dependency-plugin": true
+        }
     }
 }
